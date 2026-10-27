@@ -18,10 +18,6 @@ token.txt
 *.m4a
 tests/
 
-# ---------------------------------------------------------------- third-party frontend
-# Unmodified clone of livekit-examples/agent-starter-react (see README for setup).
-agent-starter-react/
-
 # ---------------------------------------------------------------- Python
 __pycache__/
 *.py[oc]

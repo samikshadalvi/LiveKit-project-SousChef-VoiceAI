@@ -54,8 +54,9 @@ uv run script_check.py        # text-mode run of a cooking script
 
 ### Frontend
 
+`agent-starter-react/` is a copy of LiveKit's [agent-starter-react](https://github.com/livekit-examples/agent-starter-react) (MIT, see its `LICENSE`), pointed at the local server:
+
 ```bash
-git clone https://github.com/livekit-examples/agent-starter-react.git
 cd agent-starter-react
 cat > .env.local <<'EOF'
 LIVEKIT_TOKEN_SERVER_ID=
