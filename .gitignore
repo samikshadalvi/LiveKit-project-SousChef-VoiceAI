@@ -1,0 +1,50 @@
+# ---------------------------------------------------------------- secrets
+# Real env files never get committed; copy the matching .env.example instead.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ---------------------------------------------------------------- local runtime output
+# Logs contain access tokens, home-directory paths and local network IPs.
+logs/
+*.log
+token.txt
+
+# Generated or recorded audio (may include recordings of your own voice)
+*.wav
+*.mp3
+*.m4a
+tests/
+
+# ---------------------------------------------------------------- third-party frontend
+# Unmodified clone of livekit-examples/agent-starter-react (see README for setup).
+agent-starter-react/
+
+# ---------------------------------------------------------------- Python
+__pycache__/
+*.py[oc]
+.venv/
+venv/
+build/
+dist/
+wheels/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ---------------------------------------------------------------- Node / Next.js
+node_modules/
+.next/
+out/
+.pnpm-store/
+*.tsbuildinfo
+
+# ---------------------------------------------------------------- OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp

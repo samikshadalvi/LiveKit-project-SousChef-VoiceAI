@@ -1,0 +1,11 @@
+[project]
+name = "sous-chef"
+version = "0.1.0"
+description = "Sous-Chef: a hands-free voice cooking assistant built on LiveKit Agents"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "livekit-agents[openai,silero]~=1.6",
+    "openai>=3.37.0",
+    "python-dotenv>=1.2.4",
+]
